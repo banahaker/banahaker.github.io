@@ -6,7 +6,7 @@ import "animate.css";
   <div class="aboutMe">
     <p>
       A 16-yo Senior High School Student from Taiwan, learned programming
-      language from 10 years old. My fist program was written in C, the "hello,
+      language from 10 years old. My first program was written in C, the "hello,
       world" let me say hello to the programming world! Then I keep learning
       about all of programming field, and I enter the Web Develop when I was
       12-yo. I learned much things from the programming community in Taiwan, and
