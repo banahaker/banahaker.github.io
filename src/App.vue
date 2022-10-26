@@ -2,11 +2,13 @@
 import headVue from "./components/head.vue";
 import skillsVue from "./components/skills.vue";
 import aboutMeVue from "./components/aboutMe.vue";
+import projectVue from "./components/project.vue";
 </script>
 
 <template>
   <headVue></headVue>
   <aboutMeVue></aboutMeVue>
+  <projectVue></projectVue>
 </template>
 
 <style>

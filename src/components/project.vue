@@ -1,0 +1,81 @@
+<script lang="ts" setup>
+import lipoicImg from "../assets/logo_lipoic.svg";
+import pbcImg from "../assets/logo_beproblemchild.jpg";
+</script>
+
+<template>
+  <div class="projects">
+    <h1>Projects</h1>
+    <div class="progs">
+      <div class="Program">
+        <img :src="lipoicImg" alt="Lipoic" />
+        <div class="content">
+          <h2><a href="https://github.com/Lipoic">Lipoic Organization</a></h2>
+          <h3>Founder</h3>
+        </div>
+      </div>
+      <div class="Program">
+        <img :src="pbcImg" alt="Beaproblemchild" />
+        <div class="content">
+          <h2>
+            <a href="https://github.com/beaproblemchild/">Be a Problem child</a>
+          </h2>
+          <h3>CTO</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.projects {
+  background-color: #303030;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    color: white;
+    margin-bottom: 40px;
+  }
+  .progs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .Program {
+      background-color: #111111;
+      min-width: 250px;
+      display: flex;
+      margin-left: 20px;
+      align-items: center;
+      justify-content: flex-start;
+      border-radius: 5px;
+      padding: 15px;
+      img {
+        width: 60px;
+        border-radius: 50%;
+      }
+      .content {
+        padding: 4px 15px;
+        h2 {
+          color: white;
+          font-size: 1.6rem;
+          font-weight: 200;
+          a {
+            font-weight: 200;
+            text-decoration: none;
+          }
+        }
+        h3 {
+          color: #b8b8b8;
+
+          font-size: 1.1rem;
+          font-weight: 200;
+        }
+      }
+    }
+  }
+}
+</style>

@@ -4,7 +4,7 @@ import "animate.css";
 
 <template>
   <div class="aboutMe">
-    <p>
+    <p class="animate__jello">
       A 16-yo Senior High School Student from Taiwan, learned programming
       language from 10 years old. My first program was written in C, the "hello,
       world" let me say hello to the programming world! Then I keep learning
