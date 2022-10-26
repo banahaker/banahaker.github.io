@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
+    "gh-pages": "^4.0.0",
     "sass": "^1.55.0",
     "three": "^0.139.0",
     "vue": "^3.2.25"
