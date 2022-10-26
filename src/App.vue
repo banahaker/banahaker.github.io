@@ -1,17 +1,18 @@
 <script setup lang="ts">
-import headVue from './components/head.vue'
-import skillsVue from './components/skills.vue';
+import headVue from "./components/head.vue";
+import skillsVue from "./components/skills.vue";
+import aboutMeVue from "./components/aboutMe.vue";
 </script>
 
 <template>
   <headVue></headVue>
-  <skillsVue></skillsVue>
+  <aboutMeVue></aboutMeVue>
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 * {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
