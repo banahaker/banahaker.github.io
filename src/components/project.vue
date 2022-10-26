@@ -34,6 +34,7 @@ import pbcImg from "../assets/logo_beproblemchild.jpg";
 </template>
 
 <style lang="scss" scoped>
+@import "../scss/global.scss";
 .projects {
   background-color: #303030;
   padding: 20px;
@@ -42,15 +43,17 @@ import pbcImg from "../assets/logo_beproblemchild.jpg";
   align-items: center;
   h1 {
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   .progs {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     .Program {
+      margin-top: 20px;
       background-color: #111111;
       min-width: 250px;
       display: flex;
@@ -79,6 +82,14 @@ import pbcImg from "../assets/logo_beproblemchild.jpg";
 
           font-size: 1.1rem;
           font-weight: 200;
+        }
+        @include phone {
+          h2 {
+            font-size: 1.3rem;
+          }
+          h3 {
+            font-size: 0.9rem;
+          }
         }
       }
     }
