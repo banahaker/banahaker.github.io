@@ -10,7 +10,11 @@ import pbcImg from "../assets/logo_beproblemchild.jpg";
       <div class="Program">
         <img :src="lipoicImg" alt="Lipoic" />
         <div class="content">
-          <h2><a href="https://github.com/Lipoic">Lipoic Organization</a></h2>
+          <h2>
+            <a target="_blank" href="https://github.com/Lipoic"
+              >Lipoic Organization</a
+            >
+          </h2>
           <h3>Founder</h3>
         </div>
       </div>
@@ -18,7 +22,9 @@ import pbcImg from "../assets/logo_beproblemchild.jpg";
         <img :src="pbcImg" alt="Beaproblemchild" />
         <div class="content">
           <h2>
-            <a href="https://github.com/beaproblemchild/">Be a Problem child</a>
+            <a target="_blank" href="https://github.com/beaproblemchild/"
+              >Be a Problem child</a
+            >
           </h2>
           <h3>CTO</h3>
         </div>
