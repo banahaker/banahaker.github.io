@@ -1161,6 +1161,13 @@ upath@^2.0.1:
   resolved "https://registry.yarnpkg.com/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
   integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
 
+vite-plugin-gh-pages@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-gh-pages/-/vite-plugin-gh-pages-0.4.1.tgz#3e9cb9557db0307453faa3b722339bef1f5376ae"
+  integrity sha512-le3VEvsI7GURftAiXPsgd+8noO/W1+gv363gFZdVNQ2uZGO78/nKl7um+0873ZH5paO8+iA5tXAss8TM6z4pyA==
+  dependencies:
+    gh-pages "^4.0.0"
+
 vite@^2.8.0:
   version "2.9.15"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.15.tgz#2858dd5b2be26aa394a283e62324281892546f0b"
