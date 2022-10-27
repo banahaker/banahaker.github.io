@@ -4,6 +4,7 @@ import skillsVue from './components/Skills.vue';
 import aboutMeVue from "./components/aboutMe.vue";
 import projectVue from "./components/project.vue";
 import contactMeVue from "./components/contactMe.vue";
+import copyrightVue from "./components/copyright.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import contactMeVue from "./components/contactMe.vue";
   <projectVue></projectVue>
   <skillsVue></skillsVue>
   <contactMeVue></contactMeVue>
+  <copyrightVue></copyrightVue>
 </template>
 
 <style>
