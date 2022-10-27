@@ -29,7 +29,7 @@ const skills = ref([
 <style lang="scss" scoped>
 .skills {
     background-color: #111111;
-    padding: 20px;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;

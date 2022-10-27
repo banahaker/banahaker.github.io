@@ -48,7 +48,7 @@ import banaImg from "../assets/logo_bana.png";
 @import "../scss/global.scss";
 .projects {
   background-color: #303030;
-  padding: 20px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
