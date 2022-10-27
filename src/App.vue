@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import headVue from "./components/head.vue";
-import skillsVue from "./components/skills.vue";
+import skillsVue from './components/Skills.vue';
 import aboutMeVue from "./components/aboutMe.vue";
 import projectVue from "./components/project.vue";
 </script>
@@ -9,6 +9,7 @@ import projectVue from "./components/project.vue";
   <headVue></headVue>
   <aboutMeVue></aboutMeVue>
   <projectVue></projectVue>
+  <skillsVue></skillsVue>
 </template>
 
 <style>

@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import lipoicImg from "../assets/logo_lipoic.svg";
 import pbcImg from "../assets/logo_beproblemchild.jpg";
+import banaImg from "../assets/logo_bana.png";
 </script>
 
 <template>
@@ -30,6 +31,16 @@ import pbcImg from "../assets/logo_beproblemchild.jpg";
         </div>
       </div>
     </div>
+    <!-- <div class="projs">
+      <div class="Project">
+        <img :src="banaImg" alt="Logo_bana">
+        <div class="content">
+          <h2>
+            <a target="_blank" href="https://github.com/banahaker/devicon">Devicon Redesign</a>
+          </h2>
+        </div>
+      </div>
+    </div> -->
   </div>
 </template>
 
@@ -53,6 +64,56 @@ import pbcImg from "../assets/logo_beproblemchild.jpg";
     align-items: center;
     justify-content: center;
     .Program {
+      margin-top: 20px;
+      background-color: #111111;
+      min-width: 250px;
+      display: flex;
+      margin-left: 20px;
+      align-items: center;
+      justify-content: flex-start;
+      border-radius: 5px;
+      padding: 15px;
+      img {
+        width: 60px;
+        border-radius: 50%;
+      }
+      .content {
+        padding: 4px 15px;
+        h2 {
+          color: white;
+          font-size: 1.6rem;
+          font-weight: 200;
+          a {
+            font-weight: 200;
+            text-decoration: none;
+          }
+        }
+        h3 {
+          color: #b8b8b8;
+
+          font-size: 1.1rem;
+          font-weight: 200;
+        }
+        @include phone {
+          h2 {
+            font-size: 1.3rem;
+          }
+          h3 {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+  .projs {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .Project {
       margin-top: 20px;
       background-color: #111111;
       min-width: 250px;
