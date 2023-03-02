@@ -16,8 +16,16 @@
 }
 
 a {
-  color: #04a799;
+  color: #494949;
   font-weight: 500;
+}
+
+* {
+  color: #2e2e2e;
+}
+
+html {
+  background-color: #e0e0e0;
 }
 
 @mixin phone {
