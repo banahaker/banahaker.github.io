@@ -1,19 +1,7 @@
-<script setup lang="ts">
-import headVue from "./components/head.vue";
-import skillsVue from './components/Skills.vue';
-import aboutMeVue from "./components/aboutMe.vue";
-import projectVue from "./components/project.vue";
-import contactMeVue from "./components/contactMe.vue";
-import copyrightVue from "./components/copyright.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <headVue></headVue>
-  <aboutMeVue></aboutMeVue>
-  <projectVue></projectVue>
-  <skillsVue></skillsVue>
-  <contactMeVue></contactMeVue>
-  <copyrightVue></copyrightVue>
+  <RouterView></RouterView>
 </template>
 
 <style>
