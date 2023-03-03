@@ -70,6 +70,10 @@ const linkList = ref<Array<ILink>>([
       font-size: 14px;
       padding: 0 10px 0 12px;
       letter-spacing: 3px;
+
+      &:hover {
+        color: #04a799;
+      }
     }
   }
 }
