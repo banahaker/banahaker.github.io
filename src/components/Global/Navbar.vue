@@ -6,7 +6,7 @@ interface ILink {
   router: string;
 }
 
-const linkList = ref<Array<ILink>>([
+const linkList: Array<ILink> = [
   {
     title: "Home",
     router: "/",
@@ -23,7 +23,7 @@ const linkList = ref<Array<ILink>>([
     title: "Contact",
     router: "/contact",
   },
-]);
+];
 </script>
 
 <template>
@@ -70,6 +70,7 @@ const linkList = ref<Array<ILink>>([
       font-size: 14px;
       padding: 0 10px 0 12px;
       letter-spacing: 3px;
+      border: none;
 
       &:hover {
         color: #04a799;

@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import Navbar from "./components/Global/Navbar.vue";
+import ProfilePanel from "./components/Global/ProfilePanel.vue";
 </script>
 
 <template>
   <Navbar></Navbar>
-  <RouterView></RouterView>
+  <div class="body">
+    <ProfilePanel></ProfilePanel>
+    <RouterView></RouterView>
+  </div>
 </template>
 
 <style>
@@ -14,5 +18,12 @@ import Navbar from "./components/Global/Navbar.vue";
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 48px;
 }
 </style>
