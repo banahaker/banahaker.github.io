@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import Navbar from "./components/Global/Navbar.vue";
 import ProfilePanel from "./components/Global/ProfilePanel.vue";
+import PageLayout from "./components/PageLayout.vue";
 </script>
 
 <template>
   <Navbar></Navbar>
   <div class="body">
     <ProfilePanel></ProfilePanel>
-    <RouterView></RouterView>
+    <PageLayout>
+      <RouterView></RouterView>
+    </PageLayout>
   </div>
 </template>
 

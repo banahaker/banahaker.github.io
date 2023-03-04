@@ -5,7 +5,7 @@ import Avatar from "../../assets/logo_bana.png";
 <template>
   <div class="profile">
     <div class="avatar">
-      <img :src="Avatar" alt="Lazp yeh avatar online" />
+      <img :src="Avatar" alt="Lazp yeh avatar online" loading="lazy" />
       <h1 class="title">Lazp Yeh(Banahaker)</h1>
       <div class="email">
         <a href="mailto:lazpytb@gmail.com">lazpytb@gmail.com</a>
@@ -28,7 +28,7 @@ import Avatar from "../../assets/logo_bana.png";
   display: flex;
   flex-direction: column;
   align-items: start;
-  width: 500px;
+  max-width: 500px;
 
   .avatar {
     display: flex;
