@@ -11,8 +11,10 @@ import ProfilePanel from "./components/Global/ProfilePanel.vue";
   </div>
 </template>
 
-<style>
+<style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+@import "./scss/global.scss";
+
 * {
   font-family: "Noto Sans TC", sans-serif;
   padding: 0;
@@ -25,5 +27,10 @@ import ProfilePanel from "./components/Global/ProfilePanel.vue";
   flex-direction: row;
   justify-content: flex-start;
   padding: 48px;
+
+  @include pad {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 </style>
