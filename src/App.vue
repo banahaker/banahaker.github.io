@@ -35,6 +35,8 @@ import PageLayout from "./components/Layout/PageLayout.vue";
   @include pad {
     flex-direction: column-reverse;
     align-items: center;
+
+    padding: 24px;
   }
 }
 </style>

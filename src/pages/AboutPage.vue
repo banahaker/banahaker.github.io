@@ -5,3 +5,5 @@ import PageTitle from "../components/Layout/PageTitle.vue";
 <template>
   <PageTitle title="About" subtitle="About Lazp"></PageTitle>
 </template>
+
+<style lang="scss" scoped></style>
