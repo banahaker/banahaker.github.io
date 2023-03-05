@@ -6,7 +6,7 @@ import Avatar from "../../assets/logo_bana.png";
   <div class="profile">
     <div class="avatar">
       <img :src="Avatar" alt="Lazp yeh avatar online" loading="lazy" />
-      <h1 class="title">Lazp Yeh(Banahaker)</h1>
+      <h1 class="title">Lazp Yeh</h1>
       <div class="email">
         <a href="mailto:lazpytb@gmail.com">lazpytb@gmail.com</a>
       </div>
@@ -14,9 +14,12 @@ import Avatar from "../../assets/logo_bana.png";
     <div class="bio">
       <h2>Bio</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in aperiam
-        quibusdam possimus neque fugiat numquam iusto odit sit. Ipsum nobis
-        velit repellat illo nihil voluptatum in! Impedit, aliquam asperiores.
+        Hello! I'm Lazp. A Web Developer & Data Scientist from <b>Taiwan</b>.
+        I'm co-founder and CEO of
+        <a target="_blank" href="https://lipoic.org">Lipoic</a>. Beside Lipoic,
+        I also working on other develope job like
+        <a target="_blank" href="https://lazco.dev">Lazco</a> for digital
+        solutions.
       </p>
     </div>
     <div class="copyright">&copy; Lazp. All rights reserved.</div>
@@ -45,6 +48,7 @@ import Avatar from "../../assets/logo_bana.png";
 
     border-bottom: #e2e2e2 1.5px solid;
     padding: 50px 0;
+    width: 100%;
 
     img {
       border-radius: 50%;
@@ -78,6 +82,7 @@ import Avatar from "../../assets/logo_bana.png";
   .bio {
     border-bottom: #e2e2e2 1.5px solid;
     padding: 50px 0;
+    max-width: 500px;
 
     h2 {
       margin: 0 0 30px 0;
