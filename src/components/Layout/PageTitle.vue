@@ -14,7 +14,7 @@ const props = defineProps<{
 
 <style lang="scss" scoped>
 .pageTitle {
-  padding: 10px 40px;
+  padding: 40px;
 
   border-bottom: 1px solid #d6d6d6;
 
