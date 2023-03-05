@@ -30,6 +30,7 @@ import PageLayout from "./components/PageLayout.vue";
   flex-direction: row;
   justify-content: flex-start;
   padding: 48px;
+  overflow-x: hidden;
 
   @include pad {
     flex-direction: column-reverse;

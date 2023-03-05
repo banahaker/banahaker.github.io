@@ -117,7 +117,8 @@ const linkList: Array<ILink> = [
         right: -100%;
         background-color: #ffffff;
         flex-direction: column;
-        padding: 50px;
+        padding: 50px 50px 50px 20px;
+        min-width: 20vw;
         height: 100vh;
         gap: 50px;
       }

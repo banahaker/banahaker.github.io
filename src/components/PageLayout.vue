@@ -11,6 +11,7 @@
   background-color: #fff;
   width: 100%;
   margin-left: 50px;
+  border-radius: 4px;
 
   @include pad {
     margin-left: 0;

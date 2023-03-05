@@ -24,11 +24,19 @@ import Avatar from "../../assets/logo_bana.png";
 </template>
 
 <style lang="scss" scoped>
+@import "../../scss/global.scss";
+
 .profile {
   display: flex;
   flex-direction: column;
   align-items: start;
   max-width: 500px;
+
+  @include phone {
+    max-width: 90vw;
+    align-items: center;
+    text-align: center;
+  }
 
   .avatar {
     display: flex;
@@ -51,6 +59,7 @@ import Avatar from "../../assets/logo_bana.png";
       letter-spacing: 6px;
       margin: 20px 10px 15px 10px;
       padding: 0 10px;
+      text-align: center;
     }
 
     .email {
@@ -62,6 +71,7 @@ import Avatar from "../../assets/logo_bana.png";
       font-size: 1rem;
       padding: 0 10px 0 12px;
       letter-spacing: 3px;
+      text-align: center;
     }
   }
 
