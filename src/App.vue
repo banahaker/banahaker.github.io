@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Navbar from "./components/Global/Navbar.vue";
 import ProfilePanel from "./components/Global/ProfilePanel.vue";
-import PageLayout from "./components/PageLayout.vue";
+import PageLayout from "./components/Layout/PageLayout.vue";
 </script>
 
 <template>
