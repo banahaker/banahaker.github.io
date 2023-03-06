@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Lipoic - Co-Founder & C.E.O.",
+    "time": "April 2022 ~ PRESENT",
+    "content": [
+      "Constructing and planing full-stack application. Manage 26-person team.",
+      "Building large WebRTC application",
+      "Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting,    deployment, and reporting."
+    ]
+  },
+  {
+    "title": "Lazco - Co-Founder, PM, Software Engineering",
+    "time": "March 2023 ~ PRESENT",
+    "content": [
+      "Developing system product.",
+      "Wordpress website design.",
+      "Build web application with Nextjs, Vue, Astrojs."
+    ]
+  },
+  {
+    "title": "Be a problem child - C.T.O.",
+    "time": "June 2022 ~ September 2022",
+    "content": [
+      "Building post system by nodejs with nest.js, Firebase.",
+      "Design Frontend page by vue3.",
+      "Analyzing user data for improve user experience.",
+      "Manage 3-person tiny team.",
+      "Founded a new developing flow for tiny team."
+    ]
+  }
+]
