@@ -47,7 +47,7 @@ import LinkBlank from "../components/Global/LinkBlank.vue";
       <p>
         <ul>
           <li><LinkBlank link="https://gitlab.com/Sapiens_homo">Homo Lai</LinkBlank></li>
-          <li>Randint Cheng</li>
+          <li><LinkBlank link="https://github.com/random-integer">Randint Cheng</LinkBlank></li>
           <li><LinkBlank link="https://github.com/Sax-Ted">Ted Lu</LinkBlank></li>
           <li>
             <LinkBlank link="https://github.com/SiongSng" >SiongSng(菘菘)</LinkBlank>
