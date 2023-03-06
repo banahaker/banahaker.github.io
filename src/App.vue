@@ -29,7 +29,8 @@ import PageLayout from "./components/Layout/PageLayout.vue";
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 48px;
+  margin-top: 64px;
+  padding: 48px 144px;
   overflow-x: hidden;
 
   @include pad {

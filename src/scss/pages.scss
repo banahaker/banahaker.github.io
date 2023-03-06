@@ -3,14 +3,29 @@
   flex-direction: column;
   align-items: flex-start;
 
-  padding: 20px 40px;
+  padding: 30px 40px;
 
   .page-section {
-    margin: 10px 0;
-  }
+    margin: 0;
 
-  h3 {
-    font-size: 1.6rem;
-    margin: 15px 0;
+    h3 {
+      font-size: 1.4rem;
+      margin: 30px 0;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    p {
+      line-height: 1.8;
+    }
+
+    ol,
+    ul {
+      padding-left: 20px;
+      margin: 20px 0;
+      li {
+        color: #585858;
+      }
+    }
   }
 }

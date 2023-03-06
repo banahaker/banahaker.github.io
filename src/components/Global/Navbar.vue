@@ -60,6 +60,11 @@ const linkList: Array<ILink> = [
   display: flex;
   align-items: center;
   justify-content: space-between;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
 
   .title {
     text-transform: uppercase;
