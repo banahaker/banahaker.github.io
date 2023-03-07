@@ -1,27 +1,43 @@
 <script setup lang="ts">
-import headVue from "./components/head.vue";
-import skillsVue from './components/Skills.vue';
-import aboutMeVue from "./components/aboutMe.vue";
-import projectVue from "./components/project.vue";
-import contactMeVue from "./components/contactMe.vue";
-import copyrightVue from "./components/copyright.vue";
+import Navbar from "./components/Global/Navbar.vue";
+import ProfilePanel from "./components/Global/ProfilePanel.vue";
+import PageLayout from "./components/Layout/PageLayout.vue";
 </script>
 
 <template>
-  <headVue></headVue>
-  <aboutMeVue></aboutMeVue>
-  <projectVue></projectVue>
-  <skillsVue></skillsVue>
-  <contactMeVue></contactMeVue>
-  <copyrightVue></copyrightVue>
+  <Navbar></Navbar>
+  <div class="body">
+    <ProfilePanel></ProfilePanel>
+    <PageLayout>
+      <RouterView></RouterView>
+    </PageLayout>
+  </div>
 </template>
 
-<style>
+<style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+@import "./scss/global.scss";
+
 * {
   font-family: "Noto Sans TC", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 64px;
+  padding: 48px 144px;
+  overflow-x: hidden;
+
+  @include pad {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    padding: 24px;
+  }
 }
 </style>

@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "dev:host": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -12,7 +13,8 @@
     "gh-pages": "^4.0.0",
     "sass": "^1.55.0",
     "three": "^0.139.0",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
