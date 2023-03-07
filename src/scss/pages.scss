@@ -1,5 +1,11 @@
+@import "./global.scss";
+
 .page {
   padding: 30px 60px;
+
+  @include phone {
+    padding: 30px;
+  }
 
   .page-section {
     margin: 0;
@@ -21,6 +27,24 @@
       margin: 20px 0;
       li {
         color: #585858;
+      }
+    }
+
+    @include phone {
+      h3 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+
+      li {
+        font-size: 0.8rem;
+      }
+
+      span {
+        font-size: 0.8rem;
       }
     }
   }
