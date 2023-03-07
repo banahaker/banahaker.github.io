@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import PageTitle from "../components/Layout/PageTitle.vue";
 import LazcoLogo from "../assets/lazco_logo.png";
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
@@ -16,8 +17,9 @@ import LazcoLogo from "../assets/lazco_logo.png";
           href="https://github.com/banahaker/banahaker.github.io"
           >Github</a
         >, welcome to PR for advice.Feel free to learn more about me in
-        <a href="/about">about</a>, and <a href="/resume">resume</a>, or
-        <a href="/contact">contact</a> me.
+        <RouterLink to="/about">about</RouterLink>, and
+        <RouterLink to="/resume">resume</RouterLink>, or
+        <RouterLink to="/contact">contact</RouterLink> me.
       </p>
     </div>
     <div class="links page-section">
