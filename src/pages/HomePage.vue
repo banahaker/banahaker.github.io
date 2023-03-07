@@ -25,7 +25,7 @@ import { RouterLink } from "vue-router";
     <div class="links page-section">
       <h3>Sponsors or Related Organization</h3>
       <div class="list">
-        <a href="https://lipoic.com" target="_blank"
+        <a href="https://lipoic.org" target="_blank"
           ><img
             src="https://raw.githubusercontent.com/Lipoic/Lipoic-Assets/main/logo/banner.png"
             alt="Lipoic"
