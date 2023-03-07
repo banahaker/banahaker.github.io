@@ -1,0 +1,1 @@
+import{d as t,o,c as a,h as r}from"./index.ca2964e3.js";const s=["href"],_=t({__name:"LinkBlank",props:{link:null},setup(e){return(n,l)=>(o(),a("a",{href:e.link,target:"_blank"},[r(n.$slots,"default")],8,s))}});export{_};
