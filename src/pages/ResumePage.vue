@@ -2,6 +2,96 @@
 import PageTitle from "../components/Layout/PageTitle.vue";
 import SkillBar from "../components/Resume/SkillBar.vue";
 import ExData from "../article/exlist.json";
+import { Category } from "../interface/CategortType";
+
+interface ISkillData {
+  name: string;
+  score: number;
+  category: Category;
+}
+
+const skillData: Array<ISkillData> = [
+  {
+    name: "Python",
+    score: 5,
+    category: Category.DATA_SCIENCE,
+  },
+  {
+    name: "Pandas",
+    score: 4,
+    category: Category.DATA_SCIENCE,
+  },
+  {
+    name: "Javascript",
+    score: 5,
+    category: Category.WEB_TOOLS,
+  },
+  {
+    name: "MySQL/SQLite3/SQL",
+    score: 3,
+    category: Category.DATA_SCIENCE,
+  },
+  {
+    name: "Google Cloud Service",
+    score: 3,
+    category: Category.OTHER,
+  },
+  {
+    name: "Vite",
+    score: 4,
+    category: Category.WEB_TOOLS,
+  },
+  {
+    name: "Vue",
+    score: 5,
+    category: Category.WEB_TOOLS,
+  },
+  {
+    name: "React",
+    score: 4,
+    category: Category.WEB_TOOLS,
+  },
+  {
+    name: "Numpy",
+    score: 4,
+    category: Category.DATA_SCIENCE,
+  },
+  {
+    name: "Tensorflow + Keras",
+    score: 3,
+    category: Category.DATA_SCIENCE,
+  },
+  {
+    name: "C/C++",
+    score: 5,
+    category: Category.DATA_SCIENCE,
+  },
+  {
+    name: "Express.js",
+    score: 4,
+    category: Category.WEB_TOOLS,
+  },
+  {
+    name: "Typescript",
+    score: 5,
+    category: Category.WEB_TOOLS,
+  },
+  {
+    name: "Go (Golang)",
+    score: 3,
+    category: Category.OTHER,
+  },
+  {
+    name: "MongoDB",
+    score: 3,
+    category: Category.DATA_SCIENCE,
+  },
+  {
+    name: "SDL",
+    score: 2,
+    category: Category.OTHER,
+  },
+].sort((a, b) => b.score - a.score);
 </script>
 
 <template>
@@ -29,8 +119,12 @@ import ExData from "../article/exlist.json";
     </div>
     <div class="page-section">
       <h3>SKILLS</h3>
-      <SkillBar skill="Python" :score="5"></SkillBar>
-      <SkillBar skill="Numpy" :score="4"></SkillBar>
+      <SkillBar
+        v-for="item in skillData"
+        :skill="item.name"
+        :score="item.score"
+        :category="item.category"
+      ></SkillBar>
     </div>
   </div>
 </template>

@@ -1,8 +1,16 @@
 <script lang="ts" setup>
+import { Category } from "../../interface/CategortType";
 const props = defineProps<{
   skill: string;
   score: number;
+  category: Category;
 }>();
+
+const category = [
+  "#ff4527", //  Web
+  "#04a799", // Data,
+  "#0078e3", // Others
+];
 </script>
 
 <template>
@@ -10,7 +18,12 @@ const props = defineProps<{
     <div class="skillbar-title">
       <span>{{ props.skill }}</span>
     </div>
-    <div class="skillbar-bar" :style="`width: ${(score / 5) * 100}%`"></div>
+    <div
+      class="skillbar-bar"
+      :style="`width: ${(score / 5) * 100}%; background: ${category.at(
+        props.category
+      )}`"
+    ></div>
     <div className="skill-bar-percent">{{ props.score }} / 5</div>
   </div>
 </template>
@@ -45,7 +58,6 @@ const props = defineProps<{
   font-weight: bold;
   font-size: 13px;
   color: #fff;
-  background: #04a799;
   -webkit-border-top-left-radius: 3px;
   -webkit-border-bottom-left-radius: 4px;
   -moz-border-radius-topleft: 3px;
@@ -72,7 +84,6 @@ const props = defineProps<{
 
 .skillbar-bar {
   height: 35px;
-  background: #04a799;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
