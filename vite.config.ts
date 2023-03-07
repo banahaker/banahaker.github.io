@@ -6,4 +6,5 @@ import { ghPages } from "vite-plugin-gh-pages";
 export default defineConfig({
   plugins: [vue(), ghPages()],
   base: "./",
+  publicDir: "/",
 });
