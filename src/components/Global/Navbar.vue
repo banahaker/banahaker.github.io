@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { ref } from "vue";
-
 interface ILink {
   title: string;
   router: string;
@@ -24,6 +23,12 @@ const linkList: Array<ILink> = [
     router: "/contact",
   },
 ];
+
+const toggleChecked = ref<boolean>(false);
+
+function closeMenu() {
+  toggleChecked.value = false;
+}
 </script>
 
 <template>
@@ -35,18 +40,23 @@ const linkList: Array<ILink> = [
       }}</RouterLink>
     </nav>
     <nav class="rwd-min">
-      <input type="checkbox" id="toggleMenu" style="display: none" />
+      <input
+        type="checkbox"
+        id="toggleMenu"
+        v-model="toggleChecked"
+        style="display: none"
+      />
       <label for="toggleMenu" style="cursor: pointer">
-        <svg viewBox="0 0 100 80" width="20" height="20">
-          <rect width="100" height="10"></rect>
-          <rect y="30" width="100" height="10"></rect>
-          <rect y="60" width="100" height="10"></rect>
-        </svg>
+        <v-icon name="co-hamburger-menu" class="ham" scale="1.5" />
+        <v-icon name="hi-solid-x" class="x-sign" scale="1.5" />
       </label>
       <div class="wrap">
-        <RouterLink :to="item.router" v-for="item in linkList">{{
-          item.title
-        }}</RouterLink>
+        <RouterLink
+          @click="closeMenu"
+          :to="item.router"
+          v-for="item in linkList"
+          >{{ item.title }}</RouterLink
+        >
       </div>
     </nav>
   </div>
@@ -108,10 +118,21 @@ const linkList: Array<ILink> = [
     &.rwd-min {
       display: none;
       padding: 0 10px;
+      label > .x-sign {
+        display: none;
+      }
 
       #toggleMenu:checked {
         & ~ .wrap {
           right: 0;
+        }
+
+        & ~ label > .ham {
+          display: none;
+        }
+
+        & ~ label > .x-sign {
+          display: block;
         }
       }
 
@@ -119,11 +140,11 @@ const linkList: Array<ILink> = [
         display: flex;
         position: fixed;
         top: 64px;
-        right: -100%;
+        right: -110%;
         background-color: #ffffff;
         flex-direction: column;
-        padding: 50px 50px 50px 20px;
-        min-width: 20vw;
+        padding: 50px 0 50px 60px;
+        width: 100vw;
         height: 100vh;
         gap: 50px;
       }

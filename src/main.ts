@@ -1,7 +1,14 @@
 import { createApp } from "vue";
+
+import { OhVueIcon, addIcons } from "oh-vue-icons";
+import { CoHamburgerMenu, HiSolidX } from "oh-vue-icons/icons";
+
 import App from "./App.vue";
-import "./scss/global.scss";
-import "./scss/pages.scss";
 import router from "./router";
 
-createApp(App).use(router).mount("#app");
+import "./scss/global.scss";
+import "./scss/pages.scss";
+
+addIcons(CoHamburgerMenu, HiSolidX);
+
+createApp(App).component("v-icon", OhVueIcon).use(router).mount("#app");
