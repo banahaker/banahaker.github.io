@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { ref } from "vue";
+import LinkBlank from "./LinkBlank.vue";
 interface ILink {
   title: string;
   router: string;
@@ -38,6 +39,7 @@ function closeMenu() {
       <RouterLink :to="item.router" v-for="item in linkList">{{
         item.title
       }}</RouterLink>
+      <LinkBlank link="https://medium.com/@lazpytb">articles</LinkBlank>
     </nav>
     <nav class="rwd-min">
       <input
