@@ -19,6 +19,7 @@ export function ProjectExpBlockItem(props: {
 export default function ProjectExpBlock() {
   return (
     <section className="w-full p-8 bg-gray-100 rounded-2xl mt-6 font-light flex flex-col gap-4">
+      <h2 className="text-2xl font-bold mb-1">Project Experience</h2>
       <ProjectExpBlockItem
         title="MDSIG 2.0 明道學生共學社群線上論壇 | Next.js, Express.js, MongoDB, RESTful API, Nginx, JWT"
         contents={[

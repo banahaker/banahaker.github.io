@@ -24,3 +24,9 @@ a:hover {
     #db2777
   ); /* blue-600 to pink-600 */
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
