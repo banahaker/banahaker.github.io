@@ -25,6 +25,7 @@ export default function WorkExpBlock() {
         title="Co-Founder, Lazco Studio"
         duration="March 2023 ~ PRESENT"
         contents={[
+          "Start a VPS renting and digital service company registered in UK.",
           "Develop new products and market them to expand the market.",
           "Web Application Development with Nextjs and React.",
         ]}
