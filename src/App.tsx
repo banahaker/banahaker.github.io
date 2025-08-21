@@ -1,6 +1,7 @@
 import ProfileBlock from "./components/ProfileBlock";
 import IntroBlock from "./components/IntroBlock";
 import EducationExpBlock from "./components/EducationExpBlock";
+import WorkExpBlock from "./components/WorkExpBlock";
 
 import "./App.css";
 
@@ -10,6 +11,7 @@ function App() {
       <ProfileBlock></ProfileBlock>
       <IntroBlock></IntroBlock>
       <EducationExpBlock></EducationExpBlock>
+      <WorkExpBlock></WorkExpBlock>
     </div>
   );
 }
