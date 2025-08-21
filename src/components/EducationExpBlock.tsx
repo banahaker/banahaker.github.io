@@ -25,7 +25,7 @@ export default function EducationExpBlock() {
     <section className="w-full p-8 bg-gray-100 rounded-2xl mt-6 font-light flex flex-col gap-4">
       <div className="flex flex-col md:flex-row justify-between items-start gap-4">
         <EducationExpBlockItem
-          title="B.A. Computer Science and Information Engineering"
+          title="B.S. Computer Science and Information Engineering"
           subtitle="National Taiwan University of Science and Technology (NTUST)"
           contents={["特殊選才錄取"]}
         />
