@@ -25,8 +25,8 @@ export default function EducationExpBlock() {
     <section className="w-full p-8 bg-gray-100 rounded-2xl mt-6 font-light flex flex-col gap-4">
       <div className="flex flex-col md:flex-row justify-between items-start gap-4">
         <EducationExpBlockItem
-          title="資訊工程學系"
-          subtitle="國立臺灣科技大學"
+          title="B.A. Computer Science and Information Engineering"
+          subtitle="National Taiwan University of Science and Technology (NTUST)"
           contents={["特殊選才錄取"]}
         />
         <div className="font-bold text-right text-gray-700 md:pt-2">
@@ -35,9 +35,9 @@ export default function EducationExpBlock() {
       </div>
       <div className="flex flex-col md:flex-row justify-between items-start gap-4">
         <EducationExpBlockItem
-          title="明道中學 高中部"
+          title="Mingdao High School Senior High Department"
           contents={[
-            "曾任校內資訊社群總召，負責課程規劃、活動籌辦與社群管理。領導 5 人教學、執行團隊，規劃並執行超過 5 學期的課程、競賽等活動，參與人數超過 200 人。",
+            "Formerly served as the head of the campus information community, responsible for curriculum planning, event organization, and community management. Led a teaching and execution team of 5 people, planning and implementing over 5 semesters of courses, competitions, and other activities, with participation exceeding 200 people.",
           ]}
         />
         <div className="font-bold text-right text-gray-700 md:pt-2">
