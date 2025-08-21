@@ -7,3 +7,20 @@ body {
 .ibm-plex-mono {
   font-family: "IBM Plex Mono", monospace;
 }
+
+a {
+  font-family: "IBM Plex Mono", monospace;
+  transition: background-color 0.2s ease-in-out;
+  color: transparent;
+  background-clip: text;
+  background-color: black;
+  font-weight: 600;
+}
+
+a:hover {
+  background-image: linear-gradient(
+    to right,
+    #2563eb,
+    #db2777
+  ); /* blue-600 to pink-600 */
+}
