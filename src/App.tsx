@@ -5,6 +5,7 @@ import WorkExpBlock from "./components/WorkExpBlock";
 import CompetitionExpBlock from "./components/CompetitionExpBlock";
 
 import "./App.css";
+import ProjectExpBlock from "./components/ProjectExpBlock";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <EducationExpBlock></EducationExpBlock>
       <WorkExpBlock></WorkExpBlock>
       <CompetitionExpBlock></CompetitionExpBlock>
+      <ProjectExpBlock></ProjectExpBlock>
     </div>
   );
 }
