@@ -2,6 +2,7 @@ import ProfileBlock from "./components/ProfileBlock";
 import IntroBlock from "./components/IntroBlock";
 import EducationExpBlock from "./components/EducationExpBlock";
 import WorkExpBlock from "./components/WorkExpBlock";
+import CompetitionExpBlock from "./components/CompetitionExpBlock";
 
 import "./App.css";
 
@@ -12,6 +13,7 @@ function App() {
       <IntroBlock></IntroBlock>
       <EducationExpBlock></EducationExpBlock>
       <WorkExpBlock></WorkExpBlock>
+      <CompetitionExpBlock></CompetitionExpBlock>
     </div>
   );
 }
