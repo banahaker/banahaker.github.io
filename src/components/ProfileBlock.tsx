@@ -9,14 +9,17 @@ export default function ProfileBlock() {
           alt="Lazp's Avatar"
           className="rounded-full w-[128px] h-[128px]"
         />
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3">
           <h1 className="text-4xl font-bold">Lazp Yeh</h1>
-          <a
-            className="ibm-plex-mono transition-all duration-200 ease-in-out hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-blue-600 hover:to-pink-600"
-            href="mailto:lazpytb@gmail.com"
-          >
-            lazpytb@gmail.com
-          </a>
+          <div className="flex flex-col gap-1">
+            <a
+              className="ibm-plex-mono transition-all duration-200 ease-in-out hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-blue-600 hover:to-pink-600"
+              href="mailto:lazpytb@gmail.com"
+            >
+              lazpytb@gmail.com
+            </a>
+            <p className="ibm-plex-mono">Discord: lazp.tw</p>
+          </div>
         </div>
       </div>
     </>
