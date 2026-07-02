@@ -4,7 +4,7 @@ function SkillGroup({ label, value }: { label: string; value: string }) {
       <div className="ibm-plex-mono text-[0.7rem] font-semibold uppercase tracking-[0.15em] text-muted">
         {label}
       </div>
-      <p className="text-sm font-light text-ink/90 leading-relaxed">{value}</p>
+      <p className="text-sm font-normal text-ink/90 leading-relaxed">{value}</p>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+TC:wght@100..900&display=swap&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Space+Grotesk:wght@400..700&family=IBM+Plex+Mono:wght@300..600&family=Noto+Sans+TC:wght@100..900&display=swap");
 @import "tailwindcss";
 
 /* Dark mode keys off a .dark class on <html>, not the OS media query. */
@@ -11,6 +11,11 @@
   --color-ink: #1a1d24;
   --color-muted: #5b6472;
   --color-accent: #0f766e;
+
+  /* Type: Inter for text, Space Grotesk for display, IBM Plex Mono for data. */
+  --font-sans: "Inter", "Noto Sans TC", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans TC", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
 }
 
 /* Dark overrides cascade over @theme's :root values. */
@@ -27,14 +32,24 @@ html {
 }
 
 body {
-  font-family: "Noto Sans TC", "IBM Plex Sans", sans-serif;
+  font-family: var(--font-sans);
   background-color: var(--color-page);
   color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Display face for the name and entry titles; section labels keep mono. */
+h1,
+h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
 .ibm-plex-mono {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--font-mono);
 }
 
 a {

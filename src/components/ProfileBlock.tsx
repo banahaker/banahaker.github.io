@@ -9,7 +9,7 @@ export default function ProfileBlock() {
         className="rounded-full w-24 h-24 border border-line"
       />
       <div className="flex flex-col gap-1">
-        <h1 className="text-2xl font-bold text-ink">Lazp Yeh</h1>
+        <h1 className="text-3xl font-bold text-ink leading-tight">Lazp Yeh</h1>
         <p className="text-sm text-muted leading-relaxed">
           Student · Co-founder &amp; COO, Lazco
         </p>

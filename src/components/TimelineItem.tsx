@@ -22,12 +22,12 @@ export default function TimelineItem({
       <h3 className="text-base font-semibold text-ink leading-snug">{title}</h3>
       {meta && <div className="ibm-plex-mono text-xs text-muted mt-1">{meta}</div>}
       {description && (
-        <p className="mt-3 text-[0.95rem] font-light text-ink/90 leading-relaxed">
+        <p className="mt-3 text-[0.95rem] font-normal text-ink/90 leading-relaxed">
           {description}
         </p>
       )}
       {contents && contents.length > 0 && (
-        <ul className="mt-3 flex flex-col gap-2 list-disc pl-5 text-[0.95rem] font-light text-ink/90 marker:text-muted">
+        <ul className="mt-3 flex flex-col gap-2 list-disc pl-5 text-[0.95rem] font-normal text-ink/90 leading-relaxed marker:text-muted">
           {contents.map((c, i) => (
             <li key={i}>{c}</li>
           ))}
