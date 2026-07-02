@@ -6,7 +6,7 @@ export default function WorkExpBlock() {
     <Section label="Work">
       <TimelineItem
         title="Co-Founder, Lazco"
-        meta="March 2023 ~ PRESENT"
+        meta="March 2023 ~ Present"
         description="Founding product leader at an early-stage SaaS startup, owning the full product lifecycle across strategy, design, engineering coordination, and customer relationships — spanning B2B SaaS, cloud infrastructure, and AI-native tooling."
         contents={[
           "Led product design and client management for a campus-exclusive forum system deployed at Mingdao High School, growing to 5,000+ total users and ~1,000 monthly active users.",
@@ -28,7 +28,7 @@ export default function WorkExpBlock() {
       />
       <TimelineItem
         title="Software Engineer Intern, National Center for High-Performance Computing"
-        meta="October 2025 ~ Recent"
+        meta="October 2025 ~ Present"
         contents={[
           "Built full-stack web applications using React, FastAPI, and PostgreSQL to support large-scale research data workflows.",
           "Refactored backend services into a modular architecture with structured error handling, simplifying debugging and future feature development.",
