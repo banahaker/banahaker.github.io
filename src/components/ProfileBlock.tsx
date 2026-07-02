@@ -2,26 +2,25 @@ import logo_bana from "../assets/logo_bana.png";
 
 export default function ProfileBlock() {
   return (
-    <>
-      <div className="w-full flex gap-8 items-center justify-center p-8 bg-gray-100 rounded-2xl mt-6">
-        <img
-          src={logo_bana}
-          alt="Lazp's Avatar"
-          className="rounded-full w-[128px] h-[128px]"
-        />
-        <div className="flex flex-col gap-3">
-          <h1 className="text-4xl font-bold">Lazp Yeh</h1>
-          <div className="flex flex-col gap-1">
-            <a
-              className="ibm-plex-mono transition-all duration-200 ease-in-out hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-blue-600 hover:to-pink-600"
-              href="mailto:lazpytb@gmail.com"
-            >
-              lazpytb@gmail.com
-            </a>
-            <p className="ibm-plex-mono">Discord: lazp.tw</p>
-          </div>
-        </div>
+    <div className="flex flex-col gap-4">
+      <img
+        src={logo_bana}
+        alt="Lazp's avatar"
+        className="rounded-full w-24 h-24 border border-line"
+      />
+      <div className="flex flex-col gap-1">
+        <h1 className="text-2xl font-bold text-ink">Lazp Yeh</h1>
+        <p className="text-sm text-muted leading-relaxed">
+          Student · Co-founder &amp; COO, Lazco Studio
+        </p>
       </div>
-    </>
+      <div className="flex flex-col gap-1.5 ibm-plex-mono text-sm">
+        <a href="mailto:lazpytb@gmail.com">lazpytb@gmail.com</a>
+        <span className="text-muted">Discord: lazp.tw</span>
+        <a href="/Resume.pdf" target="_blank" rel="noreferrer">
+          Resume (PDF) ↧
+        </a>
+      </div>
+    </div>
   );
 }
