@@ -20,9 +20,6 @@ export default function ProfileBlock() {
       <div className="flex flex-col gap-1.5 ibm-plex-mono text-sm">
         <a href="mailto:lazpytb@gmail.com">lazpytb@gmail.com</a>
         <span className="text-muted">Discord: lazp.tw</span>
-        <a href="/Resume.pdf" target="_blank" rel="noreferrer">
-          Resume (PDF) ↧
-        </a>
       </div>
     </div>
   );
