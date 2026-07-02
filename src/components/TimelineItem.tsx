@@ -17,7 +17,7 @@ export default function TimelineItem({
     <li className="relative">
       <span
         aria-hidden="true"
-        className="absolute -left-[1.90rem] top-1.5 h-2.5 w-2.5 rounded-full bg-accent ring-4 ring-[var(--color-page)]"
+        className="absolute left-[calc(-1.5rem-0.5px)] top-1.5 h-2.5 w-2.5 -translate-x-1/2 rounded-full bg-accent ring-4 ring-[var(--color-page)]"
       />
       <h3 className="text-base font-semibold text-ink leading-snug">{title}</h3>
       {meta && <div className="ibm-plex-mono text-xs text-muted mt-1">{meta}</div>}
