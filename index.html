@@ -29,6 +29,17 @@
       name="twitter:description"
       content="Learn more about Lazp (葉柏辰, Lazp Yeh)"
     />
+    <script>
+      (function () {
+        try {
+          if (localStorage.getItem("theme") !== "light") {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (e) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
