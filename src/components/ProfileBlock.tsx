@@ -11,7 +11,7 @@ export default function ProfileBlock() {
       <div className="flex flex-col gap-1">
         <h1 className="text-2xl font-bold text-ink">Lazp Yeh</h1>
         <p className="text-sm text-muted leading-relaxed">
-          Student · Co-founder &amp; COO, Lazco Studio
+          Student · Co-founder &amp; COO, Lazco
         </p>
       </div>
       <div className="flex flex-col gap-1.5 ibm-plex-mono text-sm">
