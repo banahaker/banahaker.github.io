@@ -5,8 +5,6 @@ import EducationExpBlock from "./components/EducationExpBlock";
 import ProjectExpBlock from "./components/ProjectExpBlock";
 import CompetitionExpBlock from "./components/CompetitionExpBlock";
 
-import "./App.css";
-
 function App() {
   return (
     <div className="min-h-dvh">

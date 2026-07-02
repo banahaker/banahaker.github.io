@@ -7,7 +7,6 @@
 /* Semantic design tokens exposed as Tailwind utilities (bg-page, text-ink, ...). */
 @theme {
   --color-page: #f7f8fa;
-  --color-surface: #ffffff;
   --color-line: #e4e7ec;
   --color-ink: #1a1d24;
   --color-muted: #5b6472;
@@ -17,7 +16,6 @@
 /* Dark overrides cascade over @theme's :root values. */
 .dark {
   --color-page: #0f1115;
-  --color-surface: #171a21;
   --color-line: #242833;
   --color-ink: #e5e7eb;
   --color-muted: #9aa3b2;
