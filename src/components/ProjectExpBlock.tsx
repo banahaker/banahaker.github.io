@@ -23,18 +23,17 @@ export default function ProjectExpBlock() {
       <ProjectExpBlockItem
         title="MDSIG 2.0 明道學生共學社群線上論壇 | Next.js, Express.js, MongoDB, RESTful API, Nginx, JWT"
         contents={[
-          "Served as the project manager for a four-person development team, successfully coordinating front-end and back-end development and design resources, establishing an efficient communication mechanism to ensure alignment with school requirements, and delivering the project on time.",
-          "Responsible for Next.js front-end development, accurately implementing UI/UX design drafts, and incorporating responsive design (RWD) and server-side rendering (SSR) technologies, resulting in a 40% increase in page load speed and significantly improving user experience.",
-          "Led the design of the back-end system architecture, optimizing the RESTful API structure, implementing pagination mechanisms and data caching strategies, effectively reducing API transmission load by 70% and enhancing overall system performance.",
-          "Planned and implemented JWT authentication mechanisms to ensure system security while optimizing the user login experience.",
+          "Served as the project manager for a four-person development team, successfully coordinating front-end and back-end development and design resources, establishing an efficient communication mechanism to ensure alignment with the school's requirements, and delivering the project on schedule.",
+          "Responsible for Next.js front-end development, accurately implementing UI/UX design drafts, and introducing responsive web design (RWD) and server-side rendering (SSR) technologies.",
+          "Led back-end system architecture design, optimized RESTful API structure, implemented pagination mechanisms and data caching strategies, effectively reducing API transmission load by 70% and improving overall system performance.",
         ]}
       />
       <ProjectExpBlockItem
         title="MDTC 明道人才雲 | Next.js, Express.js, MongoDB, RESTful API, Nginx, Prisma ORM, Cloudflare R2"
         contents={[
-          "The forum project has received recognition from the school and the principal, continuing to lead the same team in collaboration with the alumni association and the parent association to develop the Mingdao Talent Cloud.",
-          "Using Cloudflare R2 to store user-related files (resumes, other personal information). Additionally, using MongoDB with TTL mechanisms as a cache to reduce Cloudflare's API usage, effectively lowering API cost expenditures.",
-          "Using Next.js combined with Server Action to create a front-end and back-end integrated application.",
+          "The forum project received recognition from the school and the principal, continuing to lead the same team in collaboration with the alumni association and the parent association to develop the Mingdao Talent Cloud.",
+          "User-related files (resumes, other personal data) are stored using Cloudflare R2. By utilizing MongoDB and TTL mechanisms as a cache, the usage of Cloudflare's API is reduced, effectively lowering API costs.",
+          "Next.js combined with Server Action is used to create an integrated front-end and back-end application.",
         ]}
       ></ProjectExpBlockItem>
     </section>

@@ -27,21 +27,10 @@ export default function EducationExpBlock() {
         <EducationExpBlockItem
           title="B.S. Computer Science and Information Engineering"
           subtitle="National Taiwan University of Science and Technology (NTUST)"
-          contents={["特殊選才錄取"]}
+          contents={[]}
         />
         <div className="font-bold text-right text-gray-700 md:pt-2">
-          2025/09 ~ Present
-        </div>
-      </div>
-      <div className="flex flex-col md:flex-row justify-between items-start gap-4">
-        <EducationExpBlockItem
-          title="Mingdao High School Senior High Department"
-          contents={[
-            "Formerly served as the head of the campus information community, responsible for curriculum planning, event organization, and community management. Led a teaching and execution team of 5 people, planning and implementing over 5 semesters of courses, competitions, and other activities, with participation exceeding 200 people.",
-          ]}
-        />
-        <div className="font-bold text-right text-gray-700 md:pt-2">
-          2022/09 ~ 2025/06
+          2025/09 ~ 2029/06
         </div>
       </div>
     </section>

@@ -10,8 +10,8 @@ export default function OtherBlock() {
         </li>
         <li>
           Tech or Frameworks: React, Next.js, Tailwind CSS, Node.js, Express.js,
-          Git, GitHub, Docker, GitHub Actions, Linux, Nginx, Prisma ORM,
-          Cloudflare (R2, DNS)
+          FastAPI, PostgreSQL, Git, GitHub, Docker, GitHub Actions, Linux,
+          Nginx, Prisma ORM, Cloudflare (R2, DNS, Workers)
         </li>
       </ul>
     </section>
