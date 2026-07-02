@@ -4,7 +4,6 @@ import EducationExpBlock from "./components/EducationExpBlock";
 import WorkExpBlock from "./components/WorkExpBlock";
 import CompetitionExpBlock from "./components/CompetitionExpBlock";
 import ProjectExpBlock from "./components/ProjectExpBlock";
-import OtherBlock from "./components/OtherBlock";
 
 import "./App.css";
 
@@ -17,7 +16,6 @@ function App() {
       <WorkExpBlock></WorkExpBlock>
       <CompetitionExpBlock></CompetitionExpBlock>
       <ProjectExpBlock></ProjectExpBlock>
-      <OtherBlock></OtherBlock>
     </div>
   );
 }
