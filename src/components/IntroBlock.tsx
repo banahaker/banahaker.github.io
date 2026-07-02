@@ -1,14 +1,16 @@
 export default function IntroBlock() {
   return (
     <p className="text-lg font-light leading-relaxed text-ink/90">
-      Hello, I'm Lazp. A student from Taiwan. I'm co-founder and COO at{" "}
+      Hello, I'm Lazp, a software engineer and founding product leader based in
+      Taiwan. As co-founder &amp; COO at{" "}
       <a href="https://lazco.dev" target="_blank" rel="noreferrer">
         Lazco
       </a>
-      . Skilled in web application development, Linux, and other fields. Has some
-      teaching and speaking experience in short and long-term camps and courses
-      (introduction to programming languages, information security, operating
-      systems, etc.).
+      , I build full-stack web applications and the Linux infrastructure behind
+      them — across B2B SaaS, cloud infrastructure, and AI-native tooling —
+      while owning the product from strategy and design through to customers. I
+      also have teaching and speaking experience in programming, information
+      security, and operating systems.
     </p>
   );
 }
