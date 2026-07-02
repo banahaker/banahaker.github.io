@@ -10,7 +10,7 @@ export default function ProfileBlock() {
       />
       <div className="flex flex-col gap-1">
         <h1 className="text-3xl font-bold text-ink leading-tight">
-          Lazp Yeh{" "}
+          Lazp{" "}
           <span className="text-lg font-normal text-muted">(Pochen Yeh)</span>
         </h1>
         <p className="text-sm text-muted leading-relaxed">
